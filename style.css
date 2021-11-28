@@ -45,6 +45,8 @@ h1 {
 #equal {
     background-color: rgb(85, 85, 255);
     color: white;
+   word-wrap: break-word;
+   word-break: break-all;
 }
 
 .button:hover {
