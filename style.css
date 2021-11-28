@@ -16,7 +16,7 @@ h1 {
 
 #display {
     text-align: right;
-    height: 70px;
+    min-height: 70px;
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
