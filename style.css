@@ -8,6 +8,10 @@ h1 {
     color: red;
 }
 
+.span-two { 
+    grid-column: span 2; 
+}
+
 .container {
     max-width: 400px;
     margin: 10vh auto 0 auto;
