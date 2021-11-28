@@ -9,7 +9,7 @@ buttons.map( button => {
             case 'C':
                 console.log('Process to remove all characters  has been initiated')
                 display.innerText = '';
-                console.log('Removed all numbers/numerical characters')
+                console.log('Cleared all numbers/numerical characters')
                 break;
             case '←':
                 if(display.innerText) {
@@ -20,8 +20,10 @@ buttons.map( button => {
             case '=':
                 try {
                     display.innerText = eval(display.innerText);
+                    console.log("We just calculated the solution to your sum. Hope that helped you.")
                 } catch {
                     display.innerText= 'Error!'
+                    console.log("Error!. Please try again.")
                 }
                 break;
             default:
